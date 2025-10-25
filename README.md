@@ -209,27 +209,7 @@ The result is a concrete proposal ready for engineering scoping and executive re
 **Interactive Prototype:** React, Tailwind CSS, Lucide Icons  
 **Proposed Production:** Mapbox SDK, TensorFlow Lite, Native Mobile SDKs
 
----
 
-## Repository Structure
-
-```
-DuolingoLocal-Jad/
-│
-├── index.html                               # Live interactive prototype
-├── duolingo-local.jsx                       # React source code
-├── Jad-Duolingo-APM-Deck.pdf               # Full presentation deck
-├── README.md                                # Project documentation
-│
-└── images/
-    ├── DuolingoLocalHomeScreen.pdf
-    ├── DuolingoLocalDiscoverScreen.pdf
-    ├── DuolingoLocalChallengeScreen.pdf
-    ├── DuolingoLocalPhotoScreen.pdf
-    └── DuolingoLocalSuccessScreen.pdf
-```
-
----
 
 <div align="center">
 
