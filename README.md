@@ -67,16 +67,6 @@ Lucide Icons - Clean, consistent iconography
 Mapbox SDK - Interactive map integration (proposed)
 
 
-🎨 Design Highlights
-
-✅ Duolingo-inspired color palette (lime green, yellow)
-✅ Mobile-first responsive design
-✅ Gamified UI with progress tracking
-✅ Realistic map interface with street layouts
-✅ Smooth animations and transitions
-✅ Clear visual hierarchy and CTAs
-
-
 📊 Edge Cases & Solutions
 ChallengeSolutionLimited Rural AccessVirtual events + "No missions nearby" messagingClosed VenuesGoogle Business API auto-expiration + Report buttonPhoto Verification Fails3 retries + 24-hour manual review fallbackNotification OverloadToggleable notifications, targeted for at-risk users onlyXP InflationLocal XP counts toward personal goals only, not leaderboards
 
