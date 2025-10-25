@@ -3,10 +3,11 @@
 
 <p align="center">
   <a href="https://jad-takieddin.github.io/DuolingoLocal-Jad/">
-    <img src="https://img.shields.io/badge/🎮_Live_Prototype-View_Now-58CC02?style=for-the-badge" alt="Live Prototype"/>
+    <img src="https://img.shields.io/badge/🎮_LIVE_PROTOTYPE-58CC02?style=for-the-badge&logoColor=white" alt="Live Prototype" height="40"/>
   </a>
+  &nbsp;&nbsp;
   <a href="./Jad-Duolingo-APM-Deck.pdf">
-    <img src="https://img.shields.io/badge/📊_Full_Deck-Download-1CB0F6?style=for-the-badge" alt="Full Deck"/>
+    <img src="https://img.shields.io/badge/📊_FULL_DECK-1CB0F6?style=for-the-badge&logoColor=white" alt="Full Deck" height="40"/>
   </a>
 </p>
 
@@ -28,51 +29,7 @@ This feature targets at-risk weekly active users with a fresh engagement mechani
 
 ---
 
-## User Experience
-
-### The Complete Journey
-
-<table>
-<tr>
-<td width="20%" align="center">
-  <a href="./images/DuolingoLocalHomeScreen.pdf">
-    <img src="https://img.shields.io/badge/1-Home-58CC02?style=flat-square&labelColor=1CB0F6" width="100%"/>
-  </a>
-  <br/>
-  <sub><b>Entry Point</b></sub>
-</td>
-<td width="20%" align="center">
-  <a href="./images/DuolingoLocalDiscoverScreen.pdf">
-    <img src="https://img.shields.io/badge/2-Discover-58CC02?style=flat-square&labelColor=1CB0F6" width="100%"/>
-  </a>
-  <br/>
-  <sub><b>Interactive Map</b></sub>
-</td>
-<td width="20%" align="center">
-  <a href="./images/DuolingoLocalChallengeScreen.pdf">
-    <img src="https://img.shields.io/badge/3-Mission-58CC02?style=flat-square&labelColor=1CB0F6" width="100%"/>
-  </a>
-  <br/>
-  <sub><b>Challenge Details</b></sub>
-</td>
-<td width="20%" align="center">
-  <a href="./images/DuolingoLocalPhotoScreen.pdf">
-    <img src="https://img.shields.io/badge/4-Proof-58CC02?style=flat-square&labelColor=1CB0F6" width="100%"/>
-  </a>
-  <br/>
-  <sub><b>Verification</b></sub>
-</td>
-<td width="20%" align="center">
-  <a href="./images/DuolingoLocalSuccessScreen.pdf">
-    <img src="https://img.shields.io/badge/5-Reward-58CC02?style=flat-square&labelColor=1CB0F6" width="100%"/>
-  </a>
-  <br/>
-  <sub><b>Success & XP</b></sub>
-</td>
-</tr>
-</table>
-
-### Flow Breakdown
+## User Experience Flow
 
 **1. Home Screen** → Users discover the feature through a new "Local" tab in the main navigation, marked with a notification badge showing available missions nearby.
 
@@ -88,27 +45,18 @@ This feature targets at-risk weekly active users with a fresh engagement mechani
 
 ## Success Metrics
 
-<table>
-<tr>
-<td align="center" width="33%">
-  <h3>🎯</h3>
-  <b>Primary Metric</b><br/>
-  <sub>At-Risk WAU Retention</sub>
-</td>
-<td align="center" width="33%">
-  <h3>📈</h3>
-  <b>Target Impact</b><br/>
-  <sub>>3% retention lift vs. control</sub>
-</td>
-<td align="center" width="33%">
-  <h3>✅</h3>
-  <b>Participation Goal</b><br/>
-  <sub>>20% of variant group</sub>
-</td>
-</tr>
-</table>
+<div align="center">
 
-These thresholds align with Duolingo's growth targets and would demonstrate meaningful product-market fit. The metric choice reflects where the business sees the highest leverage: retaining users who are on the verge of churning.
+| Metric | Target | Success Criteria |
+|:-------|:------:|:-----------------|
+| **At-Risk WAU Retention** | +3% vs. control | Primary metric demonstrating retention impact |
+| **Feature Participation Rate** | >20% of variant group | Validates product-market fit |
+| **Mission Completion Rate** | >60% once started | Indicates appropriate difficulty calibration |
+| **Merchant Partner Satisfaction** | >4.0/5.0 avg. rating | Ensures sustainable partnership model |
+
+</div>
+
+These thresholds align with Duolingo's growth targets and demonstrate meaningful business impact. The metric selection reflects where the company sees highest leverage: retaining users on the verge of churning.
 
 ---
 
@@ -137,36 +85,16 @@ Establish a continuous optimization loop: analyze user funnels, identify frictio
 
 ## Technical Architecture
 
-<table>
-<tr>
-<td width="50%">
+<div align="center">
 
-**Map Integration**
-- Mapbox SDK for flexible styling
-- Real-time mission updates
-- Smooth pan and zoom interactions
+| **Component** | **Implementation** | **Details** |
+|:--------------|:-------------------|:------------|
+| **Map Integration** | Mapbox SDK | Flexible styling, real-time mission updates, smooth interactions |
+| **Photo Verification** | Extended ML infrastructure | OCR for menu text, 3 retry attempts + manual fallback |
+| **Location Services** | Native iOS/Android SDKs | Opt-in geolocation with privacy-first approach |
+| **Merchant Dashboard** | Web portal | Track completions, manage coupons, real-time analytics |
 
-**Photo Verification**
-- Extend existing ML infrastructure
-- OCR for menu text recognition
-- 3 retry attempts + manual fallback
-
-</td>
-<td width="50%">
-
-**Location Services**
-- Native iOS/Android SDKs
-- Opt-in geolocation
-- Privacy-first approach
-
-**Merchant Dashboard**
-- Track mission completions
-- Manage coupon redemptions
-- Real-time analytics
-
-</td>
-</tr>
-</table>
+</div>
 
 ---
 
@@ -209,20 +137,16 @@ The result is a concrete proposal ready for engineering scoping and executive re
 **Interactive Prototype:** React, Tailwind CSS, Lucide Icons  
 **Proposed Production:** Mapbox SDK, TensorFlow Lite, Native Mobile SDKs
 
-
+---
 
 <div align="center">
 
 ### 🔗 Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://yourportfolio.com)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jad-takieddin/)
 
 ---
 
 *This is a conceptual case study created for portfolio purposes and is not affiliated with Duolingo.*
-
-**If you found this interesting, consider starring the repo ⭐**
 
 </div>
